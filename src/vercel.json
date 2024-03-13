@@ -1,9 +1,9 @@
 {
     "rewrites": [
-        { "source": "/", "destination": "https://generativelanguage.googleapis.com" },
+        { "source": "/", "destination": "https://chat.openai.com" },
         {
             "source": "/:match*",
-            "destination": "https://generativelanguage.googleapis.com/:match*"
+            "destination": "https://chat.openai.com/:match*"
         }
     ],
     "github": {
